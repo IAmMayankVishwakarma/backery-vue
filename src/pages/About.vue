@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<template>
+    <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -466,3 +467,4 @@
     <script src="js/plugins.js"></script>
     
 </body></html>
+</template>
