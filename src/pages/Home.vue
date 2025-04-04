@@ -8,7 +8,7 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
 
-    <title>Fable - Bakery Site Template</title>
+    <title>Myk - Bakery Site Template</title>
     
     <!-- Loading Bootstrap -->
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -197,7 +197,7 @@
                             data-responsive_offset="on" 
 
                             
-                            style="z-index: 6; white-space: nowrap;">FABLE BAKERY
+                            style="z-index: 6; white-space: nowrap;">Myk BAKERY
                         </div>
 
                         <!-- LAYER NR. 3 -->
@@ -301,7 +301,7 @@
                             data-responsive_offset="on" 
 
                             
-                            style="z-index: 6; white-space: nowrap;">FABLE CAKES
+                            style="z-index: 6; white-space: nowrap;">Myk CAKES
                         </div>
 
                         <!-- LAYER NR. 3 -->
@@ -1523,7 +1523,7 @@
                         
                         <!--begin copyright -->
                         <div class="copyright ">
-                            <p>© 2016 Fable. Designed by <a href="http://themeforest.net/user/bogdan_09/portfolio?ref=bogdan_09" target="_blank">Bogdan Preda</a></p>
+                            <p>© 2016 Myk. Designed by <a href="http://themeforest.net/user/bogdan_09/portfolio?ref=bogdan_09" target="_blank">Bogdan Preda</a></p>
                             
                         </div>
                         <!--end copyright -->

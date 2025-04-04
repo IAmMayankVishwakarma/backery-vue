@@ -8,7 +8,7 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
 
-    <title>Fable - Bakery Site Template</title>
+    <title>Myk - Bakery Site Template</title>
     
     <!-- Loading Bootstrap -->
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -122,7 +122,7 @@
                     
                     <h2 class="section-title white wow bounceIn" data-wow-delay="1s">Friendly Team</h2>
                     
-                    <p class="hero-text wow fadeInUp" data-wow-delay="2s">Opened in February 2016, La Fable is the largest bakery in London.<br>Fable is the perfect venue for almost any event, big or small.</p>
+                    <p class="hero-text wow fadeInUp" data-wow-delay="2s">Opened in February 2016, La Myk is the largest bakery in London.<br>Myk is the perfect venue for almost any event, big or small.</p>
                     
                 </div>
                 <!--end col-md-10-->
@@ -376,7 +376,7 @@
                         
                         <!--begin copyright -->
                         <div class="copyright ">
-                            <p>© 2016 Fable. Designed by <a href="http://themeforest.net/user/bogdan_09/portfolio?ref=bogdan_09" target="_blank">Bogdan Preda</a></p>
+                            <p>© 2016 Myk. Designed by <a href="http://themeforest.net/user/bogdan_09/portfolio?ref=bogdan_09" target="_blank">Bogdan Preda</a></p>
                             
                         </div>
                         <!--end copyright -->

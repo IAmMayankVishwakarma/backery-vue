@@ -8,7 +8,7 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
 
-    <title>Fable - Bakery Site Template</title>
+    <title>Myk - Bakery Site Template</title>
     
     <!-- Loading Bootstrap -->
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -118,7 +118,7 @@
                 <!--begin col-md-10-->
                 <div class="col-md-10 col-md-offset-1 text-center">
                 
-                    <span class="comic-text wow fadeIn" data-wow-delay="0.5s">La Fable</span>
+                    <span class="comic-text wow fadeIn" data-wow-delay="0.5s">La Myk</span>
                     
                     <h2 class="section-title white wow bounceIn" data-wow-delay="1s">Get In Touch</h2>
                     
@@ -308,7 +308,7 @@ alteration, by injected humour, or new randomised words which don't look believa
                         
                         <!--begin copyright -->
                         <div class="copyright ">
-                            <p>© 2016 Fable. Designed by <a href="http://themeforest.net/user/bogdan_09/portfolio?ref=bogdan_09" target="_blank">Bogdan Preda</a></p>
+                            <p>© 2016 Myk. Designed by <a href="http://themeforest.net/user/bogdan_09/portfolio?ref=bogdan_09" target="_blank">Bogdan Preda</a></p>
                             
                         </div>
                         <!--end copyright -->

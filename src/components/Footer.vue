@@ -119,7 +119,7 @@ export default{
                             
                             <!--begin copyright -->
                             <div class="copyright ">
-                                <p>© 2016 Fable. Designed by <a href="http://themeforest.net/user/bogdan_09/portfolio?ref=bogdan_09" target="_blank">Bogdan Preda</a></p>
+                                <p>© 2016 Myk. Designed by <a href="http://themeforest.net/user/bogdan_09/portfolio?ref=bogdan_09" target="_blank">Bogdan Preda</a></p>
                                 
                             </div>
                             <!--end copyright -->
