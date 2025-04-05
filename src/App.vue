@@ -1,16 +1,20 @@
 <script setup>
+import Border from './components/Border.vue'
+import Navbar from './components/Navbar.vue'
+import Footer from './components/Footer.vue'
+
 </script>
+
 <template>
-<header>
   <Border />
   <Navbar />
-</header>
-<main>
-<home-component></home-component>
-</main>
-<footer>
+
+  <main>
+    <HomeComponent />
+  </main>
+
   <Footer />
-</footer>
 </template>
+
 <style scoped>
 </style>

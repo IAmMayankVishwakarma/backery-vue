@@ -1,16 +1,11 @@
 <template>
-  
-   
-    <!--begin header -->
+<!--begin header -->
     <header class="header">
-
         <!--begin nav -->
         <nav class="navbar navbar-default navbar-fixed-top">
-            
             <!--begin container -->
             <div class="container">
-        
-                <!--begin navbar -->
+               <!--begin navbar -->
                 <div class="navbar-header">
                     <button data-target="#navbar-collapse-02" data-toggle="collapse" class="navbar-toggle" type="button">
                         <span class="sr-only">Toggle navigation</span>
@@ -19,7 +14,7 @@
                         <span class="icon-bar"></span>
                     </button>
                                                                         
-                    <a href="index.html" class="navbar-brand brand scrool"><img src="images/logo.png" alt="logo"></a>
+                    <a href="index.html" class="navbar-brand brand scrool"><img src="/src/assets/images/logo.png" alt="logo"></a>
                 </div>
                         
                 <div id="navbar-collapse-02" class="collapse navbar-collapse">
@@ -190,7 +185,7 @@
                     
                     <p>Curabitur quas nets lacus ets nulat iaculis loremis etis nisle varius vitae seditum fugiatum ligula aliquam qui sequi. Lorem ipsum dolor sit amet, consectetur adipiscing elit rutrum eleif arcu sit aspernatur nets fugit, sedit quiadused fuscentinusad sagittis odio magna, in ultricies ex tincidunt.</p>
                     
-                    <img src="images/menu-logo.png" alt="picture">
+                    <img src="/src/assets/images/menu-logo.png" alt="picture">
                 
                 </div>
                 <!--end col-md-6-->

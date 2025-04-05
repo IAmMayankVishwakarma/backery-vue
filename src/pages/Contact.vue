@@ -1,62 +1,10 @@
 <template>
-    <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-
-    <title>Myk - Bakery Site Template</title>
-    
-    <!-- Loading Bootstrap -->
-    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-
-    <!-- Loading Template CSS -->
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="css/style-magnific-popup.css" rel="stylesheet">
-    
-    <!-- Fonts -->
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/icons-main.css" rel="stylesheet">
-    <link href="css/icons-helper.css" rel="stylesheet">
-    
-    <!-- RS5.0 Main Stylesheet -->
-    <link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
-     
-    <!-- RS5.0 Layers and Navigation Styles -->
-    <link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
-    <link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">	
-    
-    <!-- Google Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Tangerine:400,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-
-    <!-- Font Favicon -->
-    <link rel="shortcut icon" href="images/favicon.ico">
-
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
-    <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-      <script src="js/respond.min.js"></script>
-    <![endif]-->
-    
-    <!--headerIncludes-->
-    
-</head>
-<body>
-    
     <!--begin borders -->
     <div id="border-left"></div>
     <div id="border-right"></div>
     <!--end borders -->
-    
     <!--begin header -->
     <header class="header">
-
         <!--begin nav -->
         <nav class="navbar navbar-default navbar-fixed-top">
             
@@ -72,7 +20,7 @@
                         <span class="icon-bar"></span>
                     </button>
                                                                         
-                    <a href="index.html" class="navbar-brand brand scrool"><img src="images/logo.png" alt="logo"></a>
+                    <a href="index.html" class="navbar-brand brand scrool"><img src="/src/assets/images/logo.png" alt="logo"></a>
                 </div>
                         
                 <div id="navbar-collapse-02" class="collapse navbar-collapse">
@@ -374,22 +322,4 @@ alteration, by injected humour, or new randomised words which don't look believa
                 
     </div>
     <!--end footer -->
-    
-
-    <!-- Load JS here for greater good =============================-->
-    <script src="js/jquery-1.11.3.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/bootstrap-select.js"></script>
-    <script src="js/bootstrap-switch.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/jquery.nav.js"></script>
-    <script src="js/jquery.scrollTo-min.js"></script>
-    <script src="js/SmoothScroll.js"></script>
-    <script src="js/wow.js"></script>
-    
-    <!-- begin custom script-->
-    <script src="js/custom.js"></script>
-    <script src="js/plugins.js"></script>
-    
-</body></html>
 </template>

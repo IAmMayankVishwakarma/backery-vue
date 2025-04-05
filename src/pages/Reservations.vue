@@ -1,54 +1,4 @@
 <template>
-    <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-
-    <title>Myk - Bakery Site Template</title>
-    
-    <!-- Loading Bootstrap -->
-    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-
-    <!-- Loading Template CSS -->
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="css/style-magnific-popup.css" rel="stylesheet">
-    
-    <!-- Fonts -->
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/icons-main.css" rel="stylesheet">
-    <link href="css/icons-helper.css" rel="stylesheet">
-    
-    <!-- RS5.0 Main Stylesheet -->
-    <link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
-     
-    <!-- RS5.0 Layers and Navigation Styles -->
-    <link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
-    <link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">	
-    
-    <!-- Google Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Tangerine:400,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-
-    <!-- Font Favicon -->
-    <link rel="shortcut icon" href="images/favicon.ico">
-
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
-    <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-      <script src="js/respond.min.js"></script>
-    <![endif]-->
-    
-    <!--headerIncludes-->
-    
-</head>
-<body>
-    
     <!--begin borders -->
     <div id="border-left"></div>
     <div id="border-right"></div>
@@ -72,7 +22,7 @@
                         <span class="icon-bar"></span>
                     </button>
                                                                         
-                    <a href="index.html" class="navbar-brand brand scrool"><img src="images/logo.png" alt="logo"></a>
+                    <a href="index.html" class="navbar-brand brand scrool"><img src="/src/assets/images/logo.png" alt="logo"></a>
                 </div>
                         
                 <div id="navbar-collapse-02" class="collapse navbar-collapse">
@@ -172,9 +122,9 @@
                         <!--begin col-md-6-->
                 		<div class="col-md-6">
                 
-                            <input class="register-input white-input" required="" name="register_names" placeholder="Full Name" type="text">
-                            <input class="register-input white-input" required="" name="register_phone" placeholder="Phone Number" type="text">
-                            <input class="register-input white-input" required="" name="register_date" type="date">
+                            <input class="register-input white-input" required name="register_names" placeholder="Full Name" type="text">
+                            <input class="register-input white-input" required name="register_phone" placeholder="Phone Number" type="text">
+                            <input class="register-input white-input" required name="register_date" type="date">
                                                        
                         </div>
                         <!--end col-md-6-->
@@ -182,8 +132,8 @@
                         <!--begin col-md-6-->
                 		<div class="col-md-6">
                         
-                            <input class="register-input white-input" required="" name="register_email" placeholder="Email Adress" type="email">
-                            <select class="register-input white-input" required="" name="register_ticket">
+                            <input class="register-input white-input" required name="register_email" placeholder="Email Adress" type="email">
+                            <select class="register-input white-input" required name="register_ticket">
                                 <option value="">How Many?</option>
                                 <option value="1 Person">1 Person</option>
                                 <option value="2 People">2 People</option>
@@ -196,7 +146,7 @@
                                 <option value="9 People">9 People</option>
                                 <option value="10 People">10 People</option>
                             </select>
-                            <input class="register-input white-input" required="" name="register_time" placeholder="Booking Time" type="text">
+                            <input class="register-input white-input" required name="register_time" placeholder="Booking Time" type="text">
                                                          
                         </div>
                         <!--end col-md-6-->
@@ -582,33 +532,5 @@
         <!--end container -->
                 
     </div>
-    <!--end footer -->
-    
-
-    <!-- Load JS here for greater good =============================-->
-    <script src="js/jquery-1.11.3.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/bootstrap-select.js"></script>
-    <script src="js/bootstrap-switch.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/jquery.nav.js"></script>
-    <script src="js/jquery.scrollTo-min.js"></script>
-    <script src="js/SmoothScroll.js"></script>
-    <script src="js/wow.js"></script>
-     
-    <!-- RS5.0 Core JS Files -->
-    <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
-    <script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
-    
-    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>
-	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
-    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-    
-    <!-- begin custom script-->
-    <script src="js/custom.js"></script>
-    <script src="js/plugins.js"></script>
-    
-</body></html>
+   
 </template>

@@ -1,11 +1,11 @@
 <script>
 export default{
-    name: 'Home'
+ name: 'Home'
 }
 </script>
 <template>
-    <!--begin home-hero-section -->
-    <div id="hero-section" class="home-hero-section">
+<!--begin home-hero-section -->
+        <div id="hero-section" class="home-hero-section">
         <!-- BEGIN REVOLUTION SLIDER -->
         <div id="rev_slider_2_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="classic-carousel2" style="margin:0px auto;background-color:#ffffff;padding:0px;margin-top:0px;margin-bottom:0px;">
             <!-- START REVOLUTION SLIDER 5.0.7 fullwidth mode -->
@@ -60,7 +60,7 @@ export default{
                             
                         <!-- LAYER NR. 2 -->
                         <div class="tp-caption Concept-SubTitle   tp-resizeme" id="slide-8-layer-2" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-10','-10','-10','-10']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power2.easeInOut;" data-transform_out="opacity:0;s:300;s:300;" data-start="1500" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 6; white-space: nowrap;font-style:italic;">
-                            <img src="/src/assets/images/rs-logo.png" alt="" width="60" height="65" data-no-retina>
+                            <!-- <img src="/src/assets/images/rs-logo.png" alt="" width="60" height="65" data-no-retina> -->
                         </div>
                         
                         <!-- LAYER NR. 2 -->
@@ -231,7 +231,7 @@ export default{
               
     </div>
     <!--end home-hero-section -->
-    
+
     <!--begin section-white-->
     <div class="section-white padding-top-30 padding-bottom-0">
     
@@ -239,7 +239,7 @@ export default{
         <div class="container-fluid"> 
 
             <!--begin row-->
-            <div class="row">
+            <div class="row"> 
     
                 <!--begin col-md-4 -->
                 <div class="col-md-4">
