@@ -1,134 +1,21 @@
+<script>
+export default{
+    name: 'Home'
+}
+</script>
 <template>
-    <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-
-    <title>Myk - Bakery Site Template</title>
-    
-    <!-- Loading Bootstrap -->
-    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-
-    <!-- Loading Template CSS -->
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="css/style-magnific-popup.css" rel="stylesheet">
-    
-    <!-- Fonts -->
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/icons-main.css" rel="stylesheet">
-    <link href="css/icons-helper.css" rel="stylesheet">
-    
-    <!-- RS5.0 Main Stylesheet -->
-    <link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
-     
-    <!-- RS5.0 Layers and Navigation Styles -->
-    <link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
-    <link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">	
-    
-    <!-- Google Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Tangerine:400,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-
-    <!-- Font Favicon -->
-    <link rel="shortcut icon" href="images/favicon.ico">
-
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
-    <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-      <script src="js/respond.min.js"></script>
-    <![endif]-->
-    
-    <!--headerIncludes-->
-    
-</head>
-<body>
-
-    <!--begin borders -->
-    <div id="border-left"></div>
-    <div id="border-right"></div>
-    <!--end borders -->
-    
-	<!--begin loader -->
-    <div id="loader">
-    	<div class="sk-three-bounce">
-            <div class="sk-child sk-bounce1"></div>
-            <div class="sk-child sk-bounce2"></div>
-            <div class="sk-child sk-bounce3"></div>
-    	</div>
-    </div>
-    <!--end loader -->
-   
-    <!--begin header -->
-    <header class="header">
-
-        <!--begin nav -->
-        <nav class="navbar navbar-default navbar-fixed-top">
-            
-            <!--begin container -->
-            <div class="container">
-        
-                <!--begin navbar -->
-                <div class="navbar-header">
-                    <button data-target="#navbar-collapse-02" data-toggle="collapse" class="navbar-toggle" type="button">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                                                                        
-                    <a href="index.html" class="navbar-brand brand scrool"><img src="images/logo.png" alt="logo" class="width-100"></a>
-                </div>
-                        
-                <div id="navbar-collapse-02" class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-right">			      
-                        <li class="selected"><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="menu.html">Menu</a></li>
-                        <li><a href="reservations.html">Reservations</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        
-                        <li class="social"><a href="#" class="first"><i class="fa fa-twitter"></i></a></li>
-                        <li class="social"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li class="social"><a href="#" class="last"><i class="fa fa-instagram"></i></a></li>
-                        
-                        <li><a href="#" class="purchase">Purchase</a></li>
-                    </ul>
-                </div>
-                <!--end navbar -->
-                                    
-            </div>
-    		<!--end container -->
-            
-        </nav>
-    	<!--end nav -->
-        
-    </header>
-    <!--end header -->
-        
     <!--begin home-hero-section -->
     <div id="hero-section" class="home-hero-section">
-                          
         <!-- BEGIN REVOLUTION SLIDER -->
         <div id="rev_slider_2_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="classic-carousel2" style="margin:0px auto;background-color:#ffffff;padding:0px;margin-top:0px;margin-bottom:0px;">
-        
             <!-- START REVOLUTION SLIDER 5.0.7 fullwidth mode -->
             <div id="rev_slider_2_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.0.7">
                 <ul>	
-                                        
                     <!-- SLIDE  -->
                     <li data-index="rs-8" data-transition="zoomin" data-slotamount="7"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"   data-rotate="0"  data-saveperformance="off"  data-title="Bakery" data-description="">
-                        
                         <!-- MAIN IMAGE -->
                         <img src="http://placehold.it/1920x1280"  alt=""  data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
-
                         <!-- LAYER NR. 1a -->
                         <div class="tp-caption tp-shape tp-shapewrapper   tp-resizeme rs-parallaxlevel-0" 
                              id="slide-8-layer-9" 
@@ -172,7 +59,8 @@
                         </div>
                             
                         <!-- LAYER NR. 2 -->
-                        <div class="tp-caption Concept-SubTitle   tp-resizeme" id="slide-8-layer-2" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-10','-10','-10','-10']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power2.easeInOut;" data-transform_out="opacity:0;s:300;s:300;" data-start="1500" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 6; white-space: nowrap;font-style:italic;"><img src="images/rs-logo.png" alt="" width="60" height="65" data-no-retina>
+                        <div class="tp-caption Concept-SubTitle   tp-resizeme" id="slide-8-layer-2" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-10','-10','-10','-10']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power2.easeInOut;" data-transform_out="opacity:0;s:300;s:300;" data-start="1500" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 6; white-space: nowrap;font-style:italic;">
+                            <img src="/src/assets/images/rs-logo.png" alt="" width="60" height="65" data-no-retina>
                         </div>
                         
                         <!-- LAYER NR. 2 -->
@@ -276,7 +164,7 @@
                         </div>
                            
                         <!-- LAYER NR. 2 -->
-                        <div class="tp-caption Concept-SubTitle   tp-resizeme" id="slide-8-layer-22" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-10','-10','-10','-10']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power2.easeInOut;" data-transform_out="opacity:0;s:300;s:300;" data-start="1500" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 6; white-space: nowrap;font-style:italic;"><img src="images/rs-logo2.png" alt="" width="59" height="65" data-no-retina>
+                        <div class="tp-caption Concept-SubTitle   tp-resizeme" id="slide-8-layer-22" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-10','-10','-10','-10']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:2000;e:Power2.easeInOut;" data-transform_out="opacity:0;s:300;s:300;" data-start="1500" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 6; white-space: nowrap;font-style:italic;"><img src="/src/assets/images/rs-logo2.png" alt="" width="59" height="65" data-no-retina>
                         </div>
                         
                         <!-- LAYER NR. 2 -->
@@ -709,7 +597,7 @@
                     <!--begin menu-wrapper-->
                     <div class="menu-wrapper">
                     
-                        <!--begin menu-image-->
+                        <!--begin menu-image--> 
                         <div class="menu-image">
                         
                         	<img src="http://placehold.it/200x200" class="width-100" alt="food">
@@ -1410,215 +1298,5 @@
         <!--end container-->
     
 	</section>
-    <!--end section-white-->
-        
-    <!--begin footer -->
-    <div class="footer">
-            
-        <!--begin container -->
-        <div class="container">
-        
-            <!--begin row -->
-            <div class="row footer-top">
-            
-                <!--begin col-md-3 -->
-                <div class="col-md-4 padding-bottom-50">
-                
-                	<h4>ABOUT US</h4>
-                    
-                    <p>Quis autem velis et reprehender etims quiste voluptate velit esse quam nihil etsa illum sedit consequatur quias voluptas sit netsum  etis nisle varius qui sequi.</p>
-                    
-                    <a href="about.html" class="btn btn-lg btn-yellow-x-small scrool">OUR STORY</a>
-                    
-                </div>
-                <!--end col-md-3 -->
-                
-                <!--begin col-md-3 -->
-                <div class="col-md-4 padding-bottom-50">
-                
-                	<h4>FEATURED EVENTS</h4>
-                    
-                    <ul class="footer-gallery">
-                        
-                        <li class="popup-gallery">
-                            <a class="popup2" href="http://placehold.it/800x600">
-                            	<img src="http://placehold.it/100x100" alt="instagram" />
-                            </a>
-                        </li>
-                        
-                        <li class="popup-gallery">
-                            <a class="popup2" href="http://placehold.it/800x600">
-                            	<img src="http://placehold.it/100x100" alt="instagram" />
-                            </a>
-                        </li>
-                        
-                        <li class="popup-gallery">
-                            <a class="popup2" href="http://placehold.it/800x600">
-                            	<img src="http://placehold.it/100x100" alt="instagram" />
-                            </a>
-                        </li>
-                        
-                        <li class="popup-gallery">
-                            <a class="popup2" href="http://placehold.it/800x600">
-                            	<img src="http://placehold.it/100x100" alt="instagram" />
-                            </a>
-                        </li>
-                        
-                        <li class="popup-gallery">
-                            <a class="popup2" href="http://placehold.it/800x600">
-                            	<img src="http://placehold.it/100x100" alt="instagram" />
-                            </a>
-                        </li>
-                        
-                        <li class="popup-gallery">
-                            <a class="popup2" href="http://placehold.it/800x600">
-                            	<img src="http://placehold.it/100x100" alt="instagram" />
-                            </a>
-                        </li>
-                        
-                        <li class="popup-gallery">
-                            <a class="popup2" href="http://placehold.it/800x600">
-                            	<img src="http://placehold.it/100x100" alt="instagram" />
-                            </a>
-                        </li>
-                        
-                        <li class="popup-gallery">
-                            <a class="popup2" href="http://placehold.it/800x600">
-                            	<img src="http://placehold.it/100x100" alt="instagram" />
-                            </a>
-                        </li>
-                        
-					</ul>
-                    
-                </div>
-                <!--end col-md-3 -->
-                
-                <!--begin col-md-3 -->
-                <div class="col-md-4 padding-bottom-50">
-                
-                	<h4>CONTACT DETAILS</h4>
-                    
-                    <p>Quis autem velis et reprehender etims quiste voluptate velit esse quam nihil etsa illum sedit nisle quias.</p>
-                    
-                    <p class="contact_info"><i class="fa fa-map-marker"></i> No.239, Oxford Street, London, UK, N1 1ED</p>
-                    
-                    <p class="contact_info"><i class="fa fa-phone"></i> +44 987 654 321 / +44 123 456 789</p>
-                
-                    <p class="contact_info"><i class="fa fa-envelope-square"></i> <a href="mailto:contact@restaurant.com">contact@restaurant.com</a></p>
-                    
-                </div>
-                <!--end col-md-3 -->
-                
-            </div>
-            <!--end row -->
-            
-            <!--begin row -->
-            <div class="row">
-                
-                <!--begin footer-bottom -->
-                <div class="footer-bottom">
-                
-                    <!--begin col-md-5 -->
-                    <div class="col-md-5">
-                        
-                        <!--begin copyright -->
-                        <div class="copyright ">
-                            <p>© 2016 Myk. Designed by <a href="http://themeforest.net/user/bogdan_09/portfolio?ref=bogdan_09" target="_blank">Bogdan Preda</a></p>
-                            
-                        </div>
-                        <!--end copyright -->
-                       
-                    </div>
-                    <!--end col-md-5 -->
-                    
-                    <!--begin col-md-2 -->
-                    <div class="col-md-2 text-center">
-                    
-                    	<a href="#hero-section" class="scrool top-scroll"><i class="fa fa-angle-double-up"></i></a>
-                        
-                    </div>
-                    <!--end col-md-2 -->
-                    
-                    <!--begin col-md-5 -->
-                    <div class="col-md-5">
-                                                        
-                        <!--begin footer_social -->
-                        <ul class="footer_social">
-                            <li>
-                                Follow Us:
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-pinterest"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-facebook"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-instagram"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-youtube"></i>
-                                </a>
-                            </li>
-                        </ul>
-                        <!--end footer_social -->
-                        
-                    </div>
-                    <!--end col-md-5 -->
-                        
-                </div>
-                <!--end footer-bottom -->
-                        
-            </div>
-            <!--end row -->
-            
-        </div>
-        <!--end container -->
-                
-    </div>
-    <!--end footer -->
     
-
-    <!-- Load JS here for greater good =============================-->
-    <script src="js/jquery-1.11.3.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/bootstrap-select.js"></script>
-    <script src="js/bootstrap-switch.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/jquery.nav.js"></script>
-    <script src="js/jquery.scrollTo-min.js"></script>
-    <script src="js/SmoothScroll.js"></script>
-    <script src="js/wow.js"></script>
-     
-    <!-- RS5.0 Core JS Files -->
-    <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
-    <script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
-    
-    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-	<script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
-    
-    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-
-    <!-- begin custom script-->
-    <script src="js/custom.js"></script>
-    <script src="js/plugins.js"></script>
-    
-    
-</body></html>
 </template>

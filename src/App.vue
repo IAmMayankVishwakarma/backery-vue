@@ -2,14 +2,11 @@
 </script>
 <template>
 <header>
+  <Border />
   <Navbar />
 </header>
 <main>
-  <br/><br/><br/><br/><br/><br/><br/><br/>
-<h1>
-  Main content
-</h1>
-<br/><br/><br/><br/><br/><br/><br/><br/>
+<home-component></home-component>
 </main>
 <footer>
   <Footer />
@@ -17,4 +14,3 @@
 </template>
 <style scoped>
 </style>
-~
