@@ -37,50 +37,50 @@ export default{
                         <ul class="footer-gallery">
                             
                             <li class="popup-gallery">
-                                <a class="popup2" href="http://placehold.it/800x600">
-                                    <img src="http://placehold.it/100x100" alt="instagram" />
+                                <a class="popup2" href="/src/assets/images/instagram5.jpg1-large.jpg">
+                                    <img src="/src/assets/images/instagram5.jpg" alt="instagram" />
+                                </a>
+                            </li>
+                            
+                            <li class="popup-gallery">
+                                <a class="popup2" href="/src/assets/images/instagram5.jpg1-large.jpg">
+                                    <img src="/src/assets/images/instagram5.jpg" alt="instagram" />
+                                </a>
+                            </li>
+                            
+                            <li class="popup-gallery">
+                                <a class="popup2" href="/src/assets/images/instagram5.jpg1-large.jpg">
+                                    <img src="/src/assets/images/instagram5.jpg" alt="instagram" />
+                                </a>
+                            </li>
+                            
+                            <li class="popup-gallery">
+                                <a class="popup2" href="/src/assets/images/instagram5.jpg1-large.jpg">
+                                    <img src="/src/assets/images/instagram5.jpg" alt="instagram" />
                                 </a>
                             </li>
                             
                             <li class="popup-gallery">
                                 <a class="popup2" href="http://placehold.it/800x600">
-                                    <img src="http://placehold.it/100x100" alt="instagram" />
+                                    <img src="/src/assets/images/instagram5.jpg" alt="instagram" />
                                 </a>
                             </li>
                             
                             <li class="popup-gallery">
                                 <a class="popup2" href="http://placehold.it/800x600">
-                                    <img src="http://placehold.it/100x100" alt="instagram" />
+                                    <img src="/src/assets/images/instagram5.jpg" alt="instagram" />
                                 </a>
                             </li>
                             
                             <li class="popup-gallery">
                                 <a class="popup2" href="http://placehold.it/800x600">
-                                    <img src="http://placehold.it/100x100" alt="instagram" />
+                                    <img src="/src/assets/images/instagram5.jpg" alt="instagram" />
                                 </a>
                             </li>
                             
                             <li class="popup-gallery">
                                 <a class="popup2" href="http://placehold.it/800x600">
-                                    <img src="http://placehold.it/100x100" alt="instagram" />
-                                </a>
-                            </li>
-                            
-                            <li class="popup-gallery">
-                                <a class="popup2" href="http://placehold.it/800x600">
-                                    <img src="http://placehold.it/100x100" alt="instagram" />
-                                </a>
-                            </li>
-                            
-                            <li class="popup-gallery">
-                                <a class="popup2" href="http://placehold.it/800x600">
-                                    <img src="http://placehold.it/100x100" alt="instagram" />
-                                </a>
-                            </li>
-                            
-                            <li class="popup-gallery">
-                                <a class="popup2" href="http://placehold.it/800x600">
-                                    <img src="http://placehold.it/100x100" alt="instagram" />
+                                    <img src="/src/assets/images/instagram5.jpg" alt="instagram" />
                                 </a>
                             </li>
                             

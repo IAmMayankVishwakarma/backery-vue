@@ -14,7 +14,7 @@ export default{
                     <!-- SLIDE  -->
                     <li data-index="rs-8" data-transition="zoomin" data-slotamount="7"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"   data-rotate="0"  data-saveperformance="off"  data-title="Bakery" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="http://placehold.it/1920x1280"  alt=""  data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                        <img src="/src/assets/images/rs1.jpg"  alt=""  data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
                         <!-- LAYER NR. 1a -->
                         <div class="tp-caption tp-shape tp-shapewrapper   tp-resizeme rs-parallaxlevel-0" 
@@ -118,7 +118,7 @@ export default{
                     <li data-index="rs-9" data-transition="zoomin" data-slotamount="7"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"   data-rotate="0"  data-saveperformance="off"  data-title="Cakes" data-description="">
                         
                         <!-- MAIN IMAGE -->
-                        <img src="http://placehold.it/1920x1280"  alt=""  data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                        <img src="/src/assets/images/rs0.jpg"  alt=""  data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
 
                         <!-- LAYER NR. 1a -->
@@ -250,7 +250,7 @@ export default{
                         <!--begin popup image -->
                         <div class="popup-wrapper">
                             <div class="popup-gallery">
-                                <a href="#about" class="scrool"><img src="http://placehold.it/800x550" class="width-100" alt="pic"><span class="eye-wrapper"></span><span class="text">Our Story</span></a>
+                                <a href="#about" class="scrool"><img src="/src/assets/images/h1.jpg" class="width-100" alt="pic"><span class="eye-wrapper"></span><span class="text">Our Story</span></a>
                             </div>
                         </div>
                         <!--begin popup image -->
@@ -270,7 +270,7 @@ export default{
                         <!--begin popup image -->
                         <div class="popup-wrapper">
                             <div class="popup-gallery">
-                                <a href="#menu" class="scrool"><img src="http://placehold.it/800x550" class="width-100" alt="pic"><span class="eye-wrapper"></span><span class="text">The Menu</span></a>
+                                <a href="#menu" class="scrool"><img src="/src/assets/images/h4.jpg" class="width-100" alt="pic"><span class="eye-wrapper"></span><span class="text">The Menu</span></a>
                             </div>
                         </div>
                         <!--begin popup image -->
@@ -290,7 +290,7 @@ export default{
                         <!--begin popup image -->
                         <div class="popup-wrapper">
                             <div class="popup-gallery">
-                                <a href="#events" class="scrool"><img src="http://placehold.it/800x550" class="width-100" alt="pic"><span class="eye-wrapper"></span><span class="text">Events</span></a>
+                                <a href="#events" class="scrool"><img src="/src/assets/images/h2.jpg" class="width-100" alt="pic"><span class="eye-wrapper"></span><span class="text">Events</span></a>
                             </div>
                         </div>
                         <!--begin popup image -->
@@ -322,7 +322,7 @@ export default{
                 <!--begin col-md-6-->
                 <div class="col-md-6 wow slideInLeft">
                                     
-                    <img src="http://placehold.it/800x575" alt="picture" class="width-100">
+                    <img src="/src/assets/images/a1.jpg" alt="picture" class="width-100">
                                             
                 </div>
                 <!--end col-md-6-->
@@ -406,7 +406,7 @@ export default{
                 <!--begin col-md-6-->
                 <div class="col-md-6 wow slideInRight">
                                     
-                    <img src="http://placehold.it/800x575" alt="picture" class="width-100">
+                    <img src="/src/assets/images/a4.jpg" alt="picture" class="width-100">
                                             
                 </div>
                 <!--end col-md-6-->
@@ -458,7 +458,7 @@ export default{
                         <!--begin menu-image-->
                         <div class="menu-image">
                         
-                        	<img src="http://placehold.it/200x200" class="width-100" alt="food">
+                        	<img src="/src/assets/images/m1.jpg" class="width-100" alt="food">
                                 
                         </div>
                         <!--end menu-image-->
@@ -492,7 +492,7 @@ export default{
                         <!--begin menu-image-->
                         <div class="menu-image">
                         
-                        	<img src="http://placehold.it/200x200" class="width-100" alt="food">
+                        	<img src="/src/assets/images/m8.jpg" class="width-100" alt="food">
                                 
                         </div>
                         <!--end menu-image-->
@@ -526,7 +526,7 @@ export default{
                         <!--begin menu-image-->
                         <div class="menu-image">
                         
-                        	<img src="http://placehold.it/200x200" class="width-100" alt="food">
+                        	<img src="/src/assets/images/m2.jpg" class="width-100" alt="food">
                                 
                         </div>
                         <!--end menu-image-->
@@ -560,7 +560,7 @@ export default{
                         <!--begin menu-image-->
                         <div class="menu-image">
                         
-                        	<img src="http://placehold.it/200x200" class="width-100" alt="food">
+                        	<img src="/src/assets/images/m12.jpg" class="width-100" alt="food">
                                 
                         </div>
                         <!--end menu-image-->
@@ -600,7 +600,7 @@ export default{
                         <!--begin menu-image--> 
                         <div class="menu-image">
                         
-                        	<img src="http://placehold.it/200x200" class="width-100" alt="food">
+                        	<img src="/src/assets/images/m9.jpg" class="width-100" alt="food">
                                 
                         </div>
                         <!--end menu-image-->
@@ -634,7 +634,7 @@ export default{
                         <!--begin menu-image-->
                         <div class="menu-image">
                         
-                        	<img src="http://placehold.it/200x200" class="width-100" alt="food">
+                        	<img src="/src/assets/images/m3.jpg" class="width-100" alt="food">
                                 
                         </div>
                         <!--end menu-image-->
@@ -668,7 +668,7 @@ export default{
                         <!--begin menu-image-->
                         <div class="menu-image">
                         
-                        	<img src="http://placehold.it/200x200" class="width-100" alt="food">
+                        	<img src="/src/assets/images/m4.jpg" class="width-100" alt="food">
                                 
                         </div>
                         <!--end menu-image-->
@@ -703,7 +703,7 @@ export default{
                         <!--begin menu-image-->
                         <div class="menu-image">
                         
-                        	<img src="http://placehold.it/200x200" class="width-100" alt="food">
+                        	<img src="/src/assets/images/m11.jpg" class="width-100" alt="food">
                                 
                         </div>
                         <!--end menu-image-->
@@ -754,7 +754,7 @@ export default{
                 <li data-index="rs-129" data-transition="parallaxvertical" data-slotamount="default"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="BAKING MAKES ME FOCUS" data-description="I find it calming because, in fairness, it is sort of magic...">
                     
                     <!-- MAIN IMAGE -->
-                    <img src="http://placehold.it/1920x1280"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                    <img src="/src/assets/images/rs4.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
 
                     <!-- LAYER NR. 1 -->
                     <div class="tp-caption tp-shape tp-shapewrapper   tp-resizeme rs-parallaxlevel-0" 
@@ -855,7 +855,7 @@ export default{
                 <li data-index="rs-130" data-transition="parallaxvertical" data-slotamount="default"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="BAKING MAKES ME FOCUS" data-description="I find it calming because, in fairness, it is sort of magic...">
                     
                     <!-- MAIN IMAGE -->
-                    <img src="http://placehold.it/1920x1280"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                    <img src="/src/assets/images/rs3.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
 
                     <!-- LAYER NR. 1 -->
                     <div class="tp-caption tp-shape tp-shapewrapper   tp-resizeme rs-parallaxlevel-0" 
@@ -956,7 +956,7 @@ export default{
                 <li data-index="rs-131" data-transition="parallaxvertical" data-slotamount="default"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="BAKING MAKES ME FOCUS" data-description="I find it calming because, in fairness, it is sort of magic...">
                     
                     <!-- MAIN IMAGE -->
-                    <img src="http://placehold.it/1920x1280"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                    <img src="/src/assets/images/rs4.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
 
                     <!-- LAYER NR. 1 -->
                     <div class="tp-caption tp-shape tp-shapewrapper   tp-resizeme rs-parallaxlevel-0" 
@@ -1057,7 +1057,7 @@ export default{
                 <li data-index="rs-132" data-transition="parallaxvertical" data-slotamount="default"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="BAKING MAKES ME FOCUS" data-description="I find it calming because, in fairness, it is sort of magic...">
                     
                     <!-- MAIN IMAGE -->
-                    <img src="http://placehold.it/1920x1280"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                    <img src="/src/assets/images/rs3.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
 
                     <!-- LAYER NR. 1 -->
                     <div class="tp-caption tp-shape tp-shapewrapper   tp-resizeme rs-parallaxlevel-0" 
@@ -1201,7 +1201,7 @@ export default{
                         <!--begin popup image -->
                         <div class="popup-wrapper">
                             <div class="popup-gallery">
-                                <a class="popup3 blog-item-pic" href="http://placehold.it/700x465"><img src="http://placehold.it/700x465" class="width-100" alt="pic"><span class="eye-wrapper"><i class="pe-7s-expand1 eye-icon"></i></span></a>
+                                <a class="popup3 blog-item-pic" href="/src/assets/images/food1.jpg"><img src="/src/assets/images/food1.jpg" class="width-100" alt="pic"><span class="eye-wrapper"><i class="pe-7s-expand1 eye-icon"></i></span></a>
                             </div>
                         </div>
                         <!--begin popup image -->
@@ -1234,7 +1234,7 @@ export default{
                         <!--begin popup image -->
                         <div class="popup-wrapper">
                             <div class="popup-gallery">
-                                <a class="popup3 blog-item-pic" href="http://placehold.it/700x465"><img src="http://placehold.it/700x465" class="width-100" alt="pic"><span class="eye-wrapper"><i class="pe-7s-expand1 eye-icon"></i></span></a>
+                                <a class="popup3 blog-item-pic" href="/src/assets/images/food2.jpg"><img src="/src/assets/images/food2.jpg" class="width-100" alt="pic"><span class="eye-wrapper"><i class="pe-7s-expand1 eye-icon"></i></span></a>
                             </div>
                         </div>
                         <!--begin popup image -->
@@ -1267,7 +1267,7 @@ export default{
                         <!--begin popup image -->
                         <div class="popup-wrapper">
                             <div class="popup-gallery">
-                                <a class="popup3 blog-item-pic" href="http://placehold.it/700x465"><img src="http://placehold.it/700x465" class="width-100" alt="pic"><span class="eye-wrapper"><i class="pe-7s-expand1 eye-icon"></i></span></a>
+                                <a class="popup3 blog-item-pic" href="/src/assets/images/food0.jpg"><img src="/src/assets/images/food0.jpg" class="width-100" alt="pic"><span class="eye-wrapper"><i class="pe-7s-expand1 eye-icon"></i></span></a>
                             </div>
                         </div>
                         <!--begin popup image -->
