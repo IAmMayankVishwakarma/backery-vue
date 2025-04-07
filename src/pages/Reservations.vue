@@ -3,55 +3,6 @@
     <div id="border-left"></div>
     <div id="border-right"></div>
     <!--end borders -->
-    
-    <!--begin header -->
-    <header class="header">
-
-        <!--begin nav -->
-        <nav class="navbar navbar-default navbar-fixed-top">
-            
-            <!--begin container -->
-            <div class="container">
-        
-                <!--begin navbar -->
-                <div class="navbar-header">
-                    <button data-target="#navbar-collapse-02" data-toggle="collapse" class="navbar-toggle" type="button">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                                                                        
-                    <a href="index.html" class="navbar-brand brand scrool"><img src="/src/assets/images/logo.png" alt="logo"></a>
-                </div>
-                        
-                <div id="navbar-collapse-02" class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-right">			      
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="menu.html">Menu</a></li>
-                        <li class="selected"><a href="reservations.html">Reservations</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        
-                        <li class="social"><a href="#" class="first"><i class="fa fa-twitter"></i></a></li>
-                        <li class="social"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li class="social"><a href="#" class="last"><i class="fa fa-instagram"></i></a></li>
-                        
-                        <li><a href="#" class="purchase">Purchase</a></li>
-                    </ul>
-                </div>
-                <!--end navbar -->
-                                    
-            </div>
-    		<!--end container -->
-            
-        </nav>
-    	<!--end nav -->
-        
-    </header>
-    <!--end header -->
-        
     <!--begin reservation-hero-section -->
     <section id="hero-section" class="reservation-hero-section">
     
@@ -98,7 +49,7 @@
                 <!--begin col-md-6-->
                 <div class="col-md-6 wow bounceInUp">
                                     
-                    <img src="http://placehold.it/800x1000" alt="picture" class="width-100">
+                    <img src="/src/assets/images/chef2.jpg" alt="picture" class="width-100">
                                     
                 </div>
                 <!--end col-md-6-->
@@ -312,7 +263,7 @@
                             
                                 <!--begin image-wrapper-->
                                 <div class="image-wrapper">
-                                    <img src="http://placehold.it/700x465" alt="picture" class="width-100">
+                                    <img src="/src/assets/images/food6.jpg" alt="picture" class="width-100">
                                 </div>
                                 <!--end image-wrapper-->
                                 
@@ -324,7 +275,7 @@
                             
                                 <!--begin image-wrapper-->
                                 <div class="image-wrapper">
-                                    <img src="http://placehold.it/700x465" alt="picture" class="width-100">
+                                    <img src="/src/assets/images/food7.jpg" alt="picture" class="width-100">
                                 </div>
                                 <!--end image-wrapper-->
                                 
@@ -357,180 +308,5 @@
     <!--end section-white-->
     
     <!--begin footer -->
-    <div class="footer">
-            
-        <!--begin container -->
-        <div class="container">
-        
-            <!--begin row -->
-            <div class="row footer-top">
-            
-                <!--begin col-md-3 -->
-                <div class="col-md-4 padding-bottom-50">
-                
-                	<h4>ABOUT US</h4>
-                    
-                    <p>Quis autem velis et reprehender etims quiste voluptate velit esse quam nihil etsa illum sedit consequatur quias voluptas sit netsum  etis nisle varius qui sequi.</p>
-                    
-                    <a href="about.html" class="btn btn-lg btn-yellow-x-small scrool">OUR STORY</a>
-                    
-                </div>
-                <!--end col-md-3 -->
-                
-                <!--begin col-md-3 -->
-                <div class="col-md-4 padding-bottom-50">
-                
-                	<h4>FEATURED EVENTS</h4>
-                    
-                    <ul class="footer-gallery">
-                        
-                        <li class="popup-gallery">
-                            <a class="popup2" href="http://placehold.it/800x600">
-                            	<img src="http://placehold.it/100x100" alt="instagram" />
-                            </a>
-                        </li>
-                        
-                        <li class="popup-gallery">
-                            <a class="popup2" href="http://placehold.it/800x600">
-                            	<img src="http://placehold.it/100x100" alt="instagram" />
-                            </a>
-                        </li>
-                        
-                        <li class="popup-gallery">
-                            <a class="popup2" href="http://placehold.it/800x600">
-                            	<img src="http://placehold.it/100x100" alt="instagram" />
-                            </a>
-                        </li>
-                        
-                        <li class="popup-gallery">
-                            <a class="popup2" href="http://placehold.it/800x600">
-                            	<img src="http://placehold.it/100x100" alt="instagram" />
-                            </a>
-                        </li>
-                        
-                        <li class="popup-gallery">
-                            <a class="popup2" href="http://placehold.it/800x600">
-                            	<img src="http://placehold.it/100x100" alt="instagram" />
-                            </a>
-                        </li>
-                        
-                        <li class="popup-gallery">
-                            <a class="popup2" href="http://placehold.it/800x600">
-                            	<img src="http://placehold.it/100x100" alt="instagram" />
-                            </a>
-                        </li>
-                        
-                        <li class="popup-gallery">
-                            <a class="popup2" href="http://placehold.it/800x600">
-                            	<img src="http://placehold.it/100x100" alt="instagram" />
-                            </a>
-                        </li>
-                        
-                        <li class="popup-gallery">
-                            <a class="popup2" href="http://placehold.it/800x600">
-                            	<img src="http://placehold.it/100x100" alt="instagram" />
-                            </a>
-                        </li>
-                        
-					</ul>
-                    
-                </div>
-                <!--end col-md-3 -->
-                
-                <!--begin col-md-3 -->
-                <div class="col-md-4 padding-bottom-50">
-                
-                	<h4>CONTACT DETAILS</h4>
-                    
-                    <p>Quis autem velis et reprehender etims quiste voluptate velit esse quam nihil etsa illum sedit nisle quias.</p>
-                    
-                    <p class="contact_info"><i class="fa fa-map-marker"></i> No.239, Oxford Street, London, UK, N1 1ED</p>
-                    
-                    <p class="contact_info"><i class="fa fa-phone"></i> +44 987 654 321 / +44 123 456 789</p>
-                
-                    <p class="contact_info"><i class="fa fa-envelope-square"></i> <a href="mailto:contact@restaurant.com">contact@restaurant.com</a></p>
-                    
-                </div>
-                <!--end col-md-3 -->
-                
-            </div>
-            <!--end row -->
-            
-            <!--begin row -->
-            <div class="row">
-                
-                <!--begin footer-bottom -->
-                <div class="footer-bottom">
-                
-                    <!--begin col-md-5 -->
-                    <div class="col-md-5">
-                        
-                        <!--begin copyright -->
-                        <div class="copyright ">
-                            <p>© 2016 Myk. Designed by <a href="http://themeforest.net/user/bogdan_09/portfolio?ref=bogdan_09" target="_blank">Bogdan Preda</a></p>
-                            
-                        </div>
-                        <!--end copyright -->
-                       
-                    </div>
-                    <!--end col-md-5 -->
-                    
-                    <!--begin col-md-2 -->
-                    <div class="col-md-2 text-center">
-                    
-                    	<a href="#hero-section" class="scrool top-scroll"><i class="fa fa-angle-double-up"></i></a>
-                        
-                    </div>
-                    <!--end col-md-2 -->
-                    
-                    <!--begin col-md-5 -->
-                    <div class="col-md-5">
-                                                        
-                        <!--begin footer_social -->
-                        <ul class="footer_social">
-                            <li>
-                                Follow Us:
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-pinterest"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-facebook"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-instagram"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-youtube"></i>
-                                </a>
-                            </li>
-                        </ul>
-                        <!--end footer_social -->
-                        
-                    </div>
-                    <!--end col-md-5 -->
-                        
-                </div>
-                <!--end footer-bottom -->
-                        
-            </div>
-            <!--end row -->
-            
-        </div>
-        <!--end container -->
-                
-    </div>
    
 </template>

@@ -1235,7 +1235,7 @@ ul.footer-list li a:hover{
 .menu-hero-section{
 	width:100%;
 	position:relative;
-	background: url(http://placehold.it/1920x1280) 50% top no-repeat fixed;
+	background: url(/src/assets/images/rs8.jpg) 50% top no-repeat fixed;
     background-size: cover;
 	color: white;
 	margin: 0 auto;
@@ -1256,7 +1256,7 @@ ul.footer-list li a:hover{
 .about-hero-section{
 	width:100%;
 	position:relative;
-	background: url(http://placehold.it/1920x1280) 50% top no-repeat fixed;
+	background: url(/src/assets/images/rs10.jpg) 50% top no-repeat fixed;
     background-size: cover;
 	color: white;
 	margin: 0 auto;
@@ -1277,7 +1277,7 @@ ul.footer-list li a:hover{
 .gallery-hero-section{
 	width:100%;
 	position:relative;
-	background: url(http://placehold.it/1920x1280) 50% top no-repeat fixed;
+	background: url(/src/assets/images/rs4.jpg) 50% top no-repeat fixed;
     background-size: cover;
 	color: white;
 	margin: 0 auto;
@@ -1298,7 +1298,7 @@ ul.footer-list li a:hover{
 .reservation-hero-section{
 	width:100%;
 	position:relative;
-	background: url(http://placehold.it/1920x1280) 50% top no-repeat fixed;
+	background: url(/src/assets/images/rs11.jpg) 50% top no-repeat fixed;
     background-size: cover;
 	color: white;
 	margin: 0 auto;
@@ -1319,7 +1319,7 @@ ul.footer-list li a:hover{
 .hero-gallery-section{
 	width:100%;
 	position:relative;
-	background: url(http://placehold.it/1920x1280) 50% top no-repeat fixed;
+	background: url(/src/assets/images/rs4.jpg) 50% top no-repeat fixed;
     background-size: cover;
 	color: white;
 	margin: 0 auto;
@@ -1340,7 +1340,7 @@ ul.footer-list li a:hover{
 .contact-hero-section{
 	width:100%;
 	position:relative;
-	background: url(http://placehold.it/1920x1280) 50% top no-repeat fixed;
+	background: url(/src/assets/images/rs5.jpg) 50% top no-repeat fixed;
     background-size: cover;
 	color: white;
 	margin: 0 auto;
@@ -1373,7 +1373,7 @@ ul.footer-list li a:hover{
 .image-section-second{
 	width:100%;
 	position:relative;
-	background: url(http://placehold.it/1920x1280);
+	background: url(/src/assets/images/rs3.jpg);
 	background-position: center center;
     background-repeat: no-repeat;
 	background-attachment: fixed;

@@ -1,48 +1,14 @@
+<script>
+export default{
+name : "About",
+data(){return {}}
+
+}
+</script>
+
 <template>
 <!--begin header -->
-    <header class="header">
-        <!--begin nav -->
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <!--begin container -->
-            <div class="container">
-               <!--begin navbar -->
-                <div class="navbar-header">
-                    <button data-target="#navbar-collapse-02" data-toggle="collapse" class="navbar-toggle" type="button">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                                                                        
-                    <a href="index.html" class="navbar-brand brand scrool"><img src="/src/assets/images/logo.png" alt="logo"></a>
-                </div>
-                        
-                <div id="navbar-collapse-02" class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-right">			      
-                        <li><a href="index.html">Home</a></li>
-                        <li class="selected"><a href="about.html">About Us</a></li>
-                        <li><a href="menu.html">Menu</a></li>
-                        <li><a href="reservations.html">Reservations</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        
-                        <li class="social"><a href="#" class="first"><i class="fa fa-twitter"></i></a></li>
-                        <li class="social"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li class="social"><a href="#" class="last"><i class="fa fa-instagram"></i></a></li>
-                        
-                        <li><a href="#" class="purchase">Purchase</a></li>
-                    </ul>
-                </div>
-                <!--end navbar -->
-                                    
-            </div>
-    		<!--end container -->
-            
-        </nav>
-    	<!--end nav -->
-        
-    </header>
-    <!--end header -->
+
         
     <!--begin about-hero-section -->
     <section id="hero-section" class="about-hero-section">
@@ -90,7 +56,7 @@
                 <!--begin col-md-6-->
                 <div class="col-md-6 wow slideInLeft">
                                     
-                    <img src="http://placehold.it/800x575" alt="picture" class="width-100">
+                    <img src="/src/assets/images/a1.jpg" alt="picture" class="width-100">
                                     
                 </div>
                 <!--end col-md-6-->
@@ -130,7 +96,7 @@
                 <li data-index="rs-122" data-transition="fade" data-slotamount="7"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-rotate="0"  data-saveperformance="off"  data-title="Real Webdesign" data-param1="Regular Image" data-description="">
                 	
                     <!-- MAIN IMAGE -->
-                	<img src="http://placehold.it/1920x1280"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                	<img src="/src/assets/images/rs3.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                     
                 </li>
                 
@@ -138,7 +104,7 @@
                 <li data-index="rs-122" data-transition="fade" data-slotamount="7"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-rotate="0"  data-saveperformance="off"  data-title="Real Webdesign" data-param1="Regular Image" data-description="">
                 	
                     <!-- MAIN IMAGE -->
-                	<img src="http://placehold.it/1920x1280"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                	<img src="/src/assets/images/rs4.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                     
                 </li>
                 
@@ -146,7 +112,7 @@
                 <li data-index="rs-122" data-transition="fade" data-slotamount="7"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-rotate="0"  data-saveperformance="off"  data-title="Real Webdesign" data-param1="Regular Image" data-description="">
                 	
                     <!-- MAIN IMAGE -->
-                	<img src="http://placehold.it/1920x1280"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                	<img src="/src/assets/images/rs6.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                     
                 </li>
                 
@@ -154,7 +120,7 @@
                 <li data-index="rs-122" data-transition="fade" data-slotamount="7"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-rotate="0"  data-saveperformance="off"  data-title="Real Webdesign" data-param1="Regular Image" data-description="">
                 	
                     <!-- MAIN IMAGE -->
-                	<img src="http://placehold.it/1920x1280"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                	<img src="/src/assets/images/rs2.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                     
                 </li>
                 
@@ -193,7 +159,7 @@
                 <!--begin col-md-6-->
                 <div class="col-md-6 wow slideInRight">
                                     
-                    <img src="http://placehold.it/800x700" alt="picture" class="width-100">
+                    <img src="/src/assets/images/chef1.jpg" alt="picture" class="width-100">
                                     
                 </div>
                 <!--end col-md-6-->
