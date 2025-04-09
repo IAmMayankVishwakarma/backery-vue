@@ -1,3 +1,13 @@
+<script>
+import contactForm from '../components/contactForm.vue'
+export default{
+    components :{
+        contactForm,
+    },
+    data(){return{}},
+    
+}
+</script>
 <template>
     <!--begin borders -->
     <div id="border-left"></div>
@@ -63,25 +73,7 @@
                         <!--end success message -->
                         
                         <!--begin contact form -->
-                        <form id="contact-form" class="contact" action="php/contact.php" method="post">
-                            
-                            <!--begin col-md-6-->
-                            <div class="col-md-6 wow slideInLeft" data-wow-delay="0.5s">
-                                <input class="contact-input white-input" required name="contact_names" placeholder="Full Name*" type="text">
-                                <input class="contact-input white-input" required name="contact_email" placeholder="Email Adress*" type="email">
-                                <input class="contact-input white-input" required name="contact_phone" placeholder="Phone Number*" type="text">
-                            </div>
-                            <!--end col-md-6-->
-                            
-                            <!--begin col-md-6-->
-                            <div class="col-md-6 wow slideInRight" data-wow-delay="0.5s">
-                                <textarea class="contact-commnent white-input" rows="2" cols="20" name="contact_message" placeholder="Your Message..."></textarea>
-                            </div>
-                            <!--end col-md-6-->
-                            
-                            <input value="Send Message" id="submit-button" class="contact-submit wow fadeInUp" data-wow-delay="1s" type="submit">
-                            
-                        </form>
+                        <contactForm />
                         <!--end contact form -->
                     
                     </div>
