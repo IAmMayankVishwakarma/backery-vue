@@ -13,11 +13,11 @@ data(){
 methods:{
    async contactForm(){
          try {
-            const response = await fetch('/api/contact',{
+            const response = await fetch('http://127.0.0.1:8000/api/contact',{
                 method : 'POST',
                 headers: {
                            'Content-Type': 'application/json',
-                           'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').getAttribute('content')
+                           //'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').getAttribute('content')
                          },
                 body: JSON.stringify(this.FormData)         
             });
@@ -28,7 +28,7 @@ methods:{
          }            
                       
     }
-}
+}  
 }
 </script>
 <template>

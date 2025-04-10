@@ -34,6 +34,9 @@ const route = useRoute()
             <li :class="{ selected: route.path === '/contact' }">
               <router-link to="/contact">Contact</router-link>
             </li>
+            <li :class="{ selected: route.path === '/login' }">
+              <router-link to="/login">Login</router-link>
+            </li>
           </ul>
         </div>
       </div>
