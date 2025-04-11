@@ -1,3 +1,11 @@
+<script>
+import ReservationForm from '@/components/ReservationForm.vue';
+export default {
+    components:{
+        ReservationForm,
+    }
+}
+</script>
 <template>
     <!--begin borders -->
     <div id="border-left"></div>
@@ -68,49 +76,7 @@
                     <!--end success message -->
                     
                     <!--begin register form -->
-                	<form id="register-form" class="contact" action="php/register.php" method="post">
-                        
-                        <!--begin col-md-6-->
-                		<div class="col-md-6">
-                
-                            <input class="register-input white-input" required name="register_names" placeholder="Full Name" type="text">
-                            <input class="register-input white-input" required name="register_phone" placeholder="Phone Number" type="text">
-                            <input class="register-input white-input" required name="register_date" type="date">
-                                                       
-                        </div>
-                        <!--end col-md-6-->
-                        
-                        <!--begin col-md-6-->
-                		<div class="col-md-6">
-                        
-                            <input class="register-input white-input" required name="register_email" placeholder="Email Adress" type="email">
-                            <select class="register-input white-input" required name="register_ticket">
-                                <option value="">How Many?</option>
-                                <option value="1 Person">1 Person</option>
-                                <option value="2 People">2 People</option>
-                                <option value="3 People">3 People</option>
-                                <option value="4 People">4 People</option>
-                                <option value="5 People">5 People</option>
-                                <option value="6 People">6 People</option>
-                                <option value="7 People">7 People</option>
-                                <option value="8 People">8 People</option>
-                                <option value="9 People">9 People</option>
-                                <option value="10 People">10 People</option>
-                            </select>
-                            <input class="register-input white-input" required name="register_time" placeholder="Booking Time" type="text">
-                                                         
-                        </div>
-                        <!--end col-md-6-->
-                
-                        <!--begin col-md-12-->
-                		<div class="col-md-12">
-                        
-                            <input value="Book Your Table" id="submit-button" class="register-submit" type="submit">
-                                                         
-                        </div>
-                        <!--end col-md-12-->
-                                            
-                    </form>
+                	<ReservationForm />
                     <!--end register form -->
                                         
                 </div>
