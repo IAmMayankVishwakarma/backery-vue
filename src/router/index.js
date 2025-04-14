@@ -6,6 +6,7 @@ import Gallery from '../pages/Gallery.vue'
 import Menu from '../pages/Menu.vue'
 import Reservations from '../pages/Reservations.vue'
 import Login from '../pages/Login.vue'
+import AdminHome from '@/admin/AdminHome.vue'
 
 const routes = [
   {
@@ -42,6 +43,11 @@ const routes = [
     path: '/login',
     name: 'Login',
     component: Login
+  },
+  {
+    path: '/admin',
+    name: 'AdminHome',
+    component: AdminHome,
   }
 ]
 

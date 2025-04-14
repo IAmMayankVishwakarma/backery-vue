@@ -5,7 +5,7 @@
   <Navbar />
 
   <main>
-    <!-- <HomeComponent /> -->
+    
   </main>
 
   <Footer />
