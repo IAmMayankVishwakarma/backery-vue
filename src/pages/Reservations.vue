@@ -1,12 +1,23 @@
 <script>
+import Border from '@/components/Border.vue';
+import Footer from '@/components/Footer.vue';
+import Navbar from '@/components/Navbar.vue';
 import ReservationForm from '@/components/ReservationForm.vue';
-export default {
-    components:{
-        ReservationForm,
-    }
+
+
+export default{
+components:{
+    Border,Footer,Navbar,ReservationForm
+},
+data(){return {}}
+
 }
 </script>
 <template>
+    <!-- <Border /> -->
+  <Navbar />
+
+  
     <!--begin borders -->
     <div id="border-left"></div>
     <div id="border-right"></div>
@@ -274,5 +285,5 @@ export default {
     <!--end section-white-->
     
     <!--begin footer -->
-   
+    <Footer /> 
 </template>

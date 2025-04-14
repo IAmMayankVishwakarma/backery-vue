@@ -1,10 +1,20 @@
 <script>
+import Border from '@/components/Border.vue';
+import Footer from '@/components/Footer.vue';
+import Navbar from '@/components/Navbar.vue';
+
+
 export default{
- name: 'Home'
+components:{
+    Border,Footer,Navbar,
+},
+data(){return {}}
+
 }
 </script>
 <template>
-<!--begin home-hero-section -->
+    <!-- <Border /> -->
+  <Navbar />
         <div id="hero-section" class="home-hero-section">
         <!-- BEGIN REVOLUTION SLIDER -->
         <div id="rev_slider_2_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="classic-carousel2" style="margin:0px auto;background-color:#ffffff;padding:0px;margin-top:0px;margin-bottom:0px;">
@@ -1298,5 +1308,5 @@ export default{
         <!--end container-->
     
 	</section>
-    
+    <Footer />
 </template>

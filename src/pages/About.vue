@@ -1,6 +1,14 @@
 <script>
+import Border from '@/components/Border.vue';
+import Footer from '@/components/Footer.vue';
+import Navbar from '@/components/Navbar.vue';
+
+
 export default{
 name : "About",
+components:{
+    Border,Footer,Navbar,
+},
 data(){return {}}
 
 }
@@ -8,6 +16,8 @@ data(){return {}}
 
 <template>
 <!--begin header -->
+<!-- <Border /> -->
+  <Navbar />
 
         
     <!--begin about-hero-section -->
@@ -173,5 +183,6 @@ data(){return {}}
     </section>
 
     
+  <Footer />
     
 </template>

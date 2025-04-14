@@ -1,15 +1,11 @@
 <script setup>
+
 </script>
 <template>
-  <Border />
-  <Navbar />
 
-  <main>
-    
-  </main>
+<router-view />
 
-  <Footer />
 </template>
-
+  
 <style scoped>
 </style>

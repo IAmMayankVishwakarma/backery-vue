@@ -1,12 +1,22 @@
 <script>
-import MenuSlideShow from '@/components/MenuSlideShow.vue';
+import Border from '@/components/Border.vue';
+import Footer from '@/components/Footer.vue';
+import Navbar from '@/components/Navbar.vue';
+
+
 export default{
- components:{
-    MenuSlideShow
- }
+components:{
+    Border,Footer,Navbar,
+},
+data(){return {}}
+
 }
 </script>
 <template>
+    <!-- <Border /> -->
+  <Navbar />
+
+  
     <!--begin borders -->
     <div id="border-left"></div>
     <div id="border-right"></div>
@@ -549,5 +559,5 @@ export default{
     <!--begin footer -->
 
     <!--end footer -->
-    
+    <Footer />
 </template>
