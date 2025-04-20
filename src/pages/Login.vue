@@ -40,13 +40,13 @@ input:focus {
   outline: 0 transparent solid;
 }
 input:focus ::-webkit-input-placeholder {
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(252, 252, 252, 0.7);
 }
 input:focus ::-moz-placeholder {
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(233, 231, 231, 0.7), 0.7);
 }
 input:focus :-ms-input-placeholder {
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(252, 251, 251, 0.7);
 }
 
 .center-container {
@@ -54,7 +54,7 @@ input:focus :-ms-input-placeholder {
   display: flex;
   justify-content: center; /* horizontal center */
   align-items: center;     /* vertical center */
-  background: url('/src/assets/images/backgroundimg.jpg') no-repeat center center fixed;
+  background: url('/src/assets/images/dark-chocolate-cake-decorated-with-golden-balls-black-background-ai-generative_123827-24058.avif') no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
   margin: 0;

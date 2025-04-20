@@ -12,7 +12,7 @@ import Menu from '@/pages/Menu.vue'
 import Reservations from '@/pages/Reservations.vue'
 import Login from '@/pages/Login.vue'
 // Admin Pages
-import AdminHome from '@/admin/AdminHome.vue'
+import Dashboard from '@/admin/Dashboard.vue'
 
 
 const routes = [
@@ -36,7 +36,7 @@ const routes = [
       {
         path: '',
         name: 'AdminHome',
-        component: AdminHome,
+        component: Dashboard,
       },
     ],
   },
