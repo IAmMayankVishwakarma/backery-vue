@@ -3,6 +3,6 @@
 </script>
 <template>
     <div>
-        Navbor Admin
+        <!-- Navbor Admin -->
     </div>
 </template>
