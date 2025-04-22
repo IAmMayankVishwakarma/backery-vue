@@ -1,4 +1,8 @@
+import'../public/assets/bootstrap/css/bootstrap.css'
+import'../public/assets/bootstrap/css/bootstrap-docs.css'
+import'../public/assets/bootstrap/css/prettify.css'
 import { createApp } from 'vue'
+
 import router from './router'
 import App from './App.vue'
 import Navbar from './components/Navbar.vue'
