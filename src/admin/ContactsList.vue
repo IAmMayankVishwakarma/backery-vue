@@ -14,7 +14,7 @@ export default {
     methods: {
         async fetchContacts() {
             try {
-                const response = await fetch('https://api.example.com/contacts'); // Replace with your API endpoint
+                const response = await fetch('http://127.0.0.1:8000/api/contact'); // Replace with your API endpoint
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
                 }
